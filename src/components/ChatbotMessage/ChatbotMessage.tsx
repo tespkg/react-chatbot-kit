@@ -4,7 +4,7 @@ import ConditionallyRender from 'react-conditionally-render';
 import ChatbotMessageAvatar from './ChatBotMessageAvatar/ChatbotMessageAvatar';
 import Loader from '../Loader/Loader';
 
-import './ChatbotMessage.css';
+// import './ChatbotMessage.css';
 import { callIfExists } from '../Chat/chatUtils';
 import { ICustomComponents, ICustomStyles } from '../../interfaces/IConfig';
 

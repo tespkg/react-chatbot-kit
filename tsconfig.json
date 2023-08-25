@@ -1,15 +1,14 @@
 {
   "compilerOptions": {
-    "outDir": "./build/",
     "noImplicitAny": true,
     "module": "es6",
-    "target": "es5",
+    "target": "ES2022",
     "jsx": "react",
     "allowJs": true,
     "lib": ["es6", "es2015", "dom"],
     "moduleResolution": "node",
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": false,
     "declaration": true,
     "declarationDir": "build"
   }
